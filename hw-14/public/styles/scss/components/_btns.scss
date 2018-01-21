@@ -1,0 +1,21 @@
+.welcome-btn {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  background-color: $btn-coral;
+  border: none;
+  font: 400 .8rem/2.8rem $Raleway;
+  text-transform: uppercase;
+  color: $white;
+  //transition: .3s;
+
+  &:hover {
+    background-color: red;
+    transition: .3s;
+  }
+}
+
+.download-btn {
+  @extend .welcome-btn;
+  width: 280px;
+}

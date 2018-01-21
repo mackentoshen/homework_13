@@ -1,0 +1,48 @@
+.footer-icons {
+  text-align: center;
+
+  .icon-border {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border: 2px solid $white;
+    margin-right: .5rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      border-color: $btn-coral;
+      background-color: $btn-coral;
+    }
+
+    .fa {
+      line-height: 36px;
+      color: #fff;
+    }
+  }
+}
+
+.card-icons {
+  @extend .footer-icons;
+  text-align: left;
+
+  .icon-border {
+    border: 2px solid $icon-color;
+
+    &:hover {
+      color: $white;
+
+      .fa {
+        color: $white;
+      }
+    }
+
+    .fa {
+      color: $icon-color;
+    }
+  }
+}

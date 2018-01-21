@@ -1,0 +1,62 @@
+.carousel-wrap {
+
+  .col {
+    padding: 0;
+    margin: 0;
+  }
+
+  .carousel-slide-img {
+    width: 50%;
+    padding: 0;
+
+    .carousel-photo {
+      width: 100%;
+      height: auto;
+      //max-height: 46%;
+    }
+  }
+
+
+
+  .carousel-slide-content {
+    width: 50%;
+    padding: 4rem 9.5rem 4.4rem 4.5rem;
+    background-color: $slider-backgr;
+
+    .carousel-article {
+      color: $white;
+      font: 2.25rem/2.6rem $Cardo;
+      font-style: italic;
+      margin-bottom: 1.8rem;
+    }
+
+    .carousel-author {
+      color: $white;
+      font: 700 .8rem/1.3rem $Raleway;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.owl-nav {
+  display: none;
+}
+
+.item {
+  display: flex;
+}
+
+.owl-dots {
+  position: absolute;
+  top: auto;
+  bottom: 5%;
+  left: auto;
+  right: 25%;
+
+  .owl-dot {
+    span {
+      background-color: $white;
+    }
+  }
+}
+

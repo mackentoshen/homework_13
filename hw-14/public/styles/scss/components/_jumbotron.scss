@@ -1,0 +1,39 @@
+.download-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: $card-title-text;
+  font: 300 1.75rem/1.31rem $Raleway;
+}
+
+.download-content {
+  text-align: center;
+  color: $card-title-text;
+  font: 700 .8rem/1.31rem $Raleway;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+.welcome-block {
+  //height: calc(100vh - 100px);
+  padding: 156px 0;
+
+  .welcome-title {
+    display: block;
+    max-width: 55rem;
+    text-align: center;
+    color: $white;
+    font: 700 4.06rem/4.44rem $Opensans;
+    text-transform: uppercase;
+    margin: 0 auto 2.5rem;
+  }
+
+  .welcome-content {
+    display: block;
+    max-width: 57rem;
+    text-align: center;
+    color: $white;
+    font: 400 1.38rem/2.06rem $Raleway;
+    margin: 0 auto 4.8rem;
+  }
+}
+

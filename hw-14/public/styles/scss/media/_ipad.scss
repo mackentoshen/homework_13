@@ -1,0 +1,131 @@
+// --------------------- iPad horizontal -------------------- //
+
+@media only screen and (max-width: 1024px) {
+
+  // --------- HEADER -------- //
+
+
+
+  // --------- SECTIONS ------- //
+
+  .cards-wrapper {
+    justify-content: space-around;
+  }
+
+
+  .carousel-slide-content {
+    padding: 4rem 4.5rem 2.4rem 3.5rem !important;
+
+    .carousel-article {
+      font: 1.25rem/1.6rem "Cardo", serif !important;
+      font-style: italic !important;
+    }
+  }
+
+  // --------- FOOTER --------- //
+
+
+
+}
+
+@media (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    //display: -ms-flexbox!important;
+    display: flex!important;
+    //-ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+
+  .navbar-expand-lg {
+    //-ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    //-ms-flex-pack: start;
+    //justify-content: flex-start;
+  }
+}
+
+
+// --------------------- iPad vertical ---------------------- //
+
+@media only screen and (max-width: 768px) {
+
+  // --------- HEADER -------- //
+  .welcome-title {
+    font: 700 3.06rem/4.44rem "Open Sans", sans-serif !important;
+  }
+
+
+  .nav-item {
+    margin: 0 auto 20px;
+
+
+    &:first-child {
+      margin: 0 auto 20px;
+    }
+
+    &:last-child {
+      margin: 0 auto;
+    }
+
+    .nav-link {
+      font: 700 1.8rem "Raleway", sans-serif;
+    }
+  }
+
+
+
+  // --------- SECTIONS ------- //
+
+  .team-wrapper {
+    justify-content: space-around;
+
+    .col-md-6 {
+      max-width: 45%;
+    }
+
+    .team-list {
+      margin-bottom: 30px;
+      text-align: center;
+
+      .card-icons {
+        text-align: center;
+      }
+    }
+  }
+
+  .item {
+    flex-direction: column;
+
+    .carousel-slide-img {
+      width: 100%;
+    }
+
+    .carousel-slide-content {
+      width: 100%;
+
+      .carousel-article {
+        font: 2.25rem/2.6rem "Cardo", serif;
+        font-style: italic !important;
+      }
+    }
+  }
+
+
+  // --------- FOOTER --------- //
+
+  .footer-menu-container {
+    justify-content: center;
+
+    .footer-menu-content {
+      margin-bottom: 50px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+
+  }
+
+}
+

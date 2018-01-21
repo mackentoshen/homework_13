@@ -1,0 +1,36 @@
+.page-header {
+  padding: 2.5rem 0 2.25rem;
+  //border-bottom: 1px solid $white;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
+
+
+  .nav-link {
+    color: $white !important;
+    opacity: 0.75;
+    font: 700 .8rem $Raleway;
+    text-transform: uppercase;
+  }
+}
+
+.navbar {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.nav-item {
+  margin-left: 60px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.nav-link:hover {
+  color: $white !important;
+  opacity: 1;
+  transition: .3s;
+}

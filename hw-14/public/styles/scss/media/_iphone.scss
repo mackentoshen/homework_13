@@ -1,0 +1,94 @@
+@media only screen and (max-width: 375px) {
+
+  // --------- HEADER -------- //
+
+  .page-header {
+    padding: 1.5rem 0 1.25rem;
+  }
+
+  .welcome-block {
+    padding: 100px 0;
+
+    .welcome-title {
+      font: 700 2rem/3rem "Open Sans", sans-serif !important;
+    }
+
+    .welcome-content {
+      font: 400 1rem/2rem "Raleway", sans-serif !important;
+    }
+  }
+
+  .navbar-nav {
+    margin: 50px 0 50px;
+
+    .nav-item {
+      margin: 0 auto 20px;
+
+      &:first-child {
+        margin: 0 auto 20px;
+      }
+
+      &:last-child {
+        margin: 0 auto;
+      }
+
+      .nav-link {
+        font: 700 1.3rem "Raleway", sans-serif;
+      }
+    }
+  }
+
+
+  // --------- SECTIONS ------- //
+
+  .team-wrapper {
+
+    .col-md-6 {
+      max-width: 100%;
+    }
+
+    .team-list {
+      margin-bottom: 50px;
+      text-align: center;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+
+
+  .carousel-slide-content {
+    width: 100%;
+    min-height: 165px;
+    padding: 2rem !important;
+
+    .carousel-article {
+      font: 1rem/1.2rem "Cardo", serif !important;
+      font-style: italic !important;
+    }
+
+    .carousel-author {
+      font: 700 0.6rem/1rem "Raleway", sans-serif !important;
+    }
+  }
+
+  .owl-dots {
+    position: absolute;
+    top: auto;
+    bottom: 1%;
+    left: auto;
+    right: 40%;
+  }
+
+  .download-title {
+    font: 300 1.75rem/2.31rem "Raleway", sans-serif;
+  }
+
+
+
+  // --------- FOOTER --------- //
+
+
+}

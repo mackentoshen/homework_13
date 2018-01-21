@@ -1,0 +1,53 @@
+.footer-top {
+  background-color: $top-footer-backgr;
+  padding: 4.4rem 5.5rem;
+}
+
+.footer-menu-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .footer-menu-content {
+    max-width: 20.5rem;
+
+    .footer-menu-title {
+      margin-bottom: 1.38rem;
+      text-align: center;
+      color: $white;
+      font: 700 0.88rem $Raleway;
+      text-transform: uppercase;
+    }
+
+    .footer-menu-description {
+      opacity: 0.5;
+      color: $white;
+      font: 400 0.88rem/1.4rem $Raleway;
+      text-align: center;
+    }
+  }
+}
+
+// ----------------------- //
+
+.footer-bottom {
+  background-color: $bottom-footer-backgr;
+  padding: 1.9rem 0;
+
+  p {
+    margin: 0 auto;
+    max-width: 18.2rem;
+    font: 400 0.88rem/1.38rem $Raleway;
+    color: $bottom-footer-text;
+    text-align: center;
+
+    .fa-heart {
+      color: $btn-coral;
+    }
+
+    .footer-link {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+}
